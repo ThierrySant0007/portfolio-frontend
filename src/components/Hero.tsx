@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Mail } from 'lucide-react';
+import { handleScrollClick as scrollTo } from '../utils/smoothScroll';
 
 export default function Hero() {
   return (
@@ -16,7 +17,7 @@ export default function Hero() {
             Atuo no desenvolvimento de aplicações web completas, criando interfaces modernas, APIs escaláveis e integrações com bancos de dados. Tenho experiência com React, TypeScript, Node.js, Java, SQL e metodologias que priorizam código limpo, performance e manutenção.
           </p>
           <div className="intro-actions">
-            <a href="#projects" className="btn-primary">Ver projetos</a>
+            <a href="#projects" className="btn-primary" onClick={(e) => scrollTo('projects', e)}>Ver projetos</a>
             <div className="social-row">
               <a href="https://github.com/ThierrySant0007" target="_blank" rel="noopener noreferrer" className="icon-btn" aria-label="GitHub" title="GitHub">
                 <FaGithub size={20} />

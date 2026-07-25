@@ -11,7 +11,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[var(--bg)] text-[var(--text-strong)] font-sans selection:bg-blue-500/30 selection:text-white overflow-x-hidden">
+    <div className="min-h-screen bg-[var(--bg)] text-[var(--text-strong)] font-sans selection:bg-blue-500/30 selection:text-white">
       <Navbar />
       <Routes>
         {/* Rota Pública (Portfólio) */}
