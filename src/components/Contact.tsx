@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Mail, Phone, Download, Copy, Send, Check, ChevronDown, Code, Clock, Globe, CheckCircle2, FileText, Users } from 'lucide-react';
-import { FaGithub } from 'react-icons/fa';
+import { Mail, Download, Copy, Send, Check, ChevronDown, Code, Clock, Globe, CheckCircle2, FileText, Users } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const faqs = [
   { icon: Code, question: 'Quais minhas principais tecnologias?', answer: 'Trabalho primariamente com React, Node.js, Spring Boot, e TypeScript. Também utilizo TailwindCSS e MySQL para grande parte dos meus projetos.' },
   { icon: Clock, question: 'Você também trabalha em projetos simples?', answer: 'Sim, atendo desde landing pages simples até sistemas completos. Cada projeto recebe a mesma atenção aos detalhes e qualidade.' },
@@ -131,16 +131,16 @@ export default function Contact() {
              </div>
              
              <div className="flex flex-wrap gap-3 mt-6 pt-6 border-t border-[var(--border)]">
-               <a href="#" className="icon-btn flex-1 sm:flex-none" aria-label="GitHub">
+               <a href="https://github.com/ThierrySant0007" target="_blank" rel="noopener noreferrer" className="icon-btn flex-1 sm:flex-none" aria-label="GitHub">
                  <FaGithub size={18} />
                </a>
-               <a href="#" className="icon-btn flex-1 sm:flex-none" aria-label="Email">
+               <a href="https://www.linkedin.com/in/thierry-santos-pereira-2b4609232/" target="_blank" rel="noopener noreferrer" className="icon-btn flex-1 sm:flex-none" aria-label="LinkedIn">
+                 <FaLinkedin size={18} />
+               </a>
+               <a href="mailto:thierrybr0007@gmail.com" className="icon-btn flex-1 sm:flex-none" aria-label="Email">
                  <Mail size={18} />
                </a>
-               <a href="#" className="icon-btn flex-1 sm:flex-none" aria-label="WhatsApp">
-                 <Phone size={18} />
-               </a>
-               <a href="#" className="icon-btn flex-1 sm:flex-none" aria-label="Download CV">
+               <a href="/curriculo.pdf" download="Thierry_Santos_Curriculo.pdf" className="icon-btn flex-1 sm:flex-none" aria-label="Download CV" title="Baixar Currículo">
                  <Download size={18} />
                </a>
              </div>
