@@ -40,7 +40,7 @@ const STATIC_PROJECTS: Project[] = [
     description: 'Sistema Backend completo desenvolvido em Java para o gerenciamento dinâmico deste próprio portfólio. Expõe endpoints seguros para operações CRUD de projetos, implementando o padrão de arquitetura Controller-Service-Repository com integração direta ao MySQL.',
     imageUrl: 'https://images.unsplash.com/photo-1555952494-efd681c7e3f9?auto=format&fit=crop&q=80&w=1000',
     projectUrl: '#',
-    githubUrl: 'https://github.com/thierrybr0007/portfolio-backend',
+    githubUrl: 'https://github.com/ThierrySant0007/portfolio-backend',
     technologies: 'Java, Spring Boot, Spring Data JPA, MySQL',
     status: 'Concluído'
   }
