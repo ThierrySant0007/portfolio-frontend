@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 
 const educationItems = [
   { period: "2026 — 2028", title: "Análise e Desenvolvimento de Sistemas", description: "Tecnólogo focado em desenvolvimento de sistemas, arquitetura de software e engenharia de dados.", category: "Tecnólogo" },
@@ -7,13 +6,6 @@ const educationItems = [
 ];
 
 export default function Education() {
-  useEffect(() => {
-    // Reveal animation after mount
-    setTimeout(() => {
-      document.getElementById('education')?.classList.add('in');
-    }, 200);
-  }, []);
-
   return (
     <section className="section wrapper reveal" id="education">
       <div className="section-head">

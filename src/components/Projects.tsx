@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import ProjectModal from './ProjectModal';
 
@@ -48,13 +48,6 @@ const STATIC_PROJECTS: Project[] = [
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-
-  useEffect(() => {
-    // Adiciona classe de reveal animado
-    setTimeout(() => {
-      document.getElementById('projects')?.classList.add('in');
-    }, 100);
-  }, []);
 
   return (
     <>
