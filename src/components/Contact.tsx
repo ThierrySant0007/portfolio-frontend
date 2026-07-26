@@ -108,8 +108,8 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
               <div className="relative">
                 <img
-                  src="https://ui-avatars.com/api/?name=Thierry+Santos&background=1e293b&color=fff&size=128&font-size=0.33"
-                  alt="Perfil"
+                  src="https://github.com/ThierrySant0007.png"
+                  alt="Thierry Santos"
                   className="w-16 h-16 rounded-full object-cover border border-[var(--slate-700)] shadow-inner"
                 />
                 <div className="absolute -bottom-0.5 -right-0.5 w-4 h-4 bg-green-500 border-2 border-[var(--card-bg)] rounded-full"></div>
